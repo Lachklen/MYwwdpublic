@@ -2,6 +2,7 @@ using Content.Shared.Actions;
 using Content.Shared.Bed.Sleep;
 using Content.Shared.DoAfter;
 using Content.Shared.Hands;
+using Content.Shared.Hands.Components; // WWDP EDIT
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Item;
@@ -134,7 +135,17 @@ public abstract partial class SharedPseudoItemSystem : EntitySystem
         if (!component.Active)
             return;
         var parent = Transform(uid).ParentUid;
-        if (!TryComp<StorageComponent>(parent, out var storage) || !_storage.HasSpace((parent, storage)))
+        if (!TryComp<StorageComponent>(parent, out var storage))
+        {
+            args.Cancel();
+            return;
+        }
+        if (!TryComp<HandsComponent>(uid, out var hands) || hands.ActiveHandEntity is not { } held)
+        {
+            args.Cancel();
+            return;
+        }
+        if (!_storage.CanInsert(parent, held, out _, storage))
         {
             _popupSystem.PopupEntity(Loc.GetString("popup-pseudo-item-no-space"), uid);
             args.Cancel();
