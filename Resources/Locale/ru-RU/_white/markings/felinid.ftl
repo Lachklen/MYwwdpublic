@@ -10,26 +10,26 @@ marking-FelinidAlternativeTailAnimated-m_waggingtail_cat_FRONT = Шерсть х
 
 # For Nyanotrasen
 
-marking-FelinidTailBasic = Обычный виляющий хвостик
-marking-FelinidTailBasic-basic_tail_tip = Кончик хвоста
-marking-FelinidTailBasic-basic_tail_stripes_even = Полоски, чётные
-marking-FelinidTailBasic-basic_tail_stripes_odd = Полоски, нечётные
+marking-FelinidTailBasicAnimated = Обычный виляющий хвостик
+marking-FelinidTailBasicAnimated-basic_tail_tip = Кончик хвоста
+marking-FelinidTailBasicAnimated-basic_tail_stripes_even = Полоски, чётные
+marking-FelinidTailBasicAnimated-basic_tail_stripes_odd = Полоски, нечётные
 
-marking-FelinidTailBasicWithBow = Обычный виляющий хвостик с бантиком
-marking-FelinidTailBasicWithBow-basic_tail_tip = Кончик хвоста
-marking-FelinidTailBasicWithBow-basic_tail_stripes_even = Полоски, чётные
-marking-FelinidTailBasicWithBow-basic_tail_stripes_odd = Полоски, нечётные
-marking-FelinidTailBasicWithBow-basic_bow = Бантик
+marking-FelinidTailBasicWithBowAnimated = Обычный виляющий хвостик с бантиком
+marking-FelinidTailBasicWithBowAnimated-basic_tail_tip = Кончик хвоста
+marking-FelinidTailBasicWithBowAnimated-basic_tail_stripes_even = Полоски, чётные
+marking-FelinidTailBasicWithBowAnimated-basic_tail_stripes_odd = Полоски, нечётные
+marking-FelinidTailBasicWithBowAnimated-basic_bow = Бантик
 
-marking-FelinidTailBasicWithBell = Обычный виляющий хвостик с колокольчиком
-marking-FelinidTailBasicWithBell-basic_tail_tip = Кончик хвоста
-marking-FelinidTailBasicWithBell-basic_tail_stripes_even = Полоски, чётные
-marking-FelinidTailBasicWithBell-basic_tail_stripes_odd = Полоски, нечётные
-marking-FelinidTailBasicWithBell-basic_bell = Колокольчик
+marking-FelinidTailBasicWithBellAnimated = Обычный виляющий хвостик с колокольчиком
+marking-FelinidTailBasicWithBellAnimated-basic_tail_tip = Кончик хвоста
+marking-FelinidTailBasicWithBellAnimated-basic_tail_stripes_even = Полоски, чётные
+marking-FelinidTailBasicWithBellAnimated-basic_tail_stripes_odd = Полоски, нечётные
+marking-FelinidTailBasicWithBellAnimated-basic_bell = Колокольчик
 
-marking-FelinidTailBasicWithBowAndBell = Обычный виляющий хвостик с бантиком и колокольчиком
-marking-FelinidTailBasicWithBowAndBell-basic_tail_tip = Кончик хвоста
-marking-FelinidTailBasicWithBowAndBell-basic_tail_stripes_even = Полоски, чётные
-marking-FelinidTailBasicWithBowAndBell-basic_tail_stripes_odd = Полоски, нечётные
-marking-FelinidTailBasicWithBowAndBell-basic_bow = Бантик
-marking-FelinidTailBasicWithBowAndBell-basic_bell = Колокольчик
+marking-FelinidTailBasicWithBowAndBellAnimated = Обычный виляющий хвостик с бантиком и колокольчиком
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_tail_tip = Кончик хвоста
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_tail_stripes_even = Полоски, чётные
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_tail_stripes_odd = Полоски, нечётные
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_bow = Бантик
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_bell = Колокольчик
