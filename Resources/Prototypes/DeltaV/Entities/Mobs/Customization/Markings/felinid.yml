@@ -4,10 +4,12 @@
   markingCategory: Tail
   speciesRestriction: [Felinid, Human, Tajaran] # Einstein Engines - Tajaran
   sprites:
-  - sprite: _White/Mobs/Customization/Felinid/felinid_tails_no-wagging.rsi # WWDP EDIT
-    state: Felinid_fluffy_tail_full_stopped # WWDP EDIT
-  - sprite: _White/Mobs/Customization/Felinid/felinid_tails_no-wagging.rsi # WWDP EDIT
-    state: felinid_fluffy_tail_rings_stopped # WWDP EDIT
+  # WWDP EDIT START
+  - sprite: _White/Mobs/Customization/Felinid/felinid_tails_deltav-no-wagging.rsi
+    state: Felinid_fluffy_tail_full_stopped
+  - sprite: _White/Mobs/Customization/Felinid/felinid_tails_deltav-no-wagging.rsi
+    state: felinid_fluffy_tail_rings_stopped
+  # WWDP EDIT END
 
 - type: marking
   id: FelinidFluffyTail
@@ -15,7 +17,7 @@
   markingCategory: Tail
   speciesRestriction: [Felinid, Human, Tajaran] # Einstein Engines - Tajaran
   sprites:
-  - sprite: _White/Mobs/Customization/Felinid/felinid_tails_no-wagging.rsi # WWDP EDIT
+  - sprite: _White/Mobs/Customization/Felinid/felinid_tails_deltav-no-wagging.rsi # WWDP EDIT
     state: Felinid_fluffy_tail_full_stopped # WWDP EDIT
 
 - type: marking
@@ -24,7 +26,7 @@
   markingCategory: Tail
   speciesRestriction: [Felinid, Human, Tajaran] # Einstein Engines - Tajaran
   sprites:
-    - sprite: _White/Mobs/Customization/Felinid/alternative_tail_no-wagging.rsi # WWDP EDIT
+    - sprite: _White/Mobs/Customization/Felinid/alternative_tail_deltav-no-wagging.rsi # WWDP EDIT
       state: m_waggingtail_cat_FRONT_stopped # WWDP EDIT
 
 - type: marking
